@@ -64,6 +64,10 @@ Step 6. Select the game folder (In "wheres-my-water-1.0.0-windows.zip" there is 
 
 Step 7. Now you got it up and running.
 
+If you don't want to write commands, click directly on "main.py":
+
+![Here]()
+
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
 # Building
