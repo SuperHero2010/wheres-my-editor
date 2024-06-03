@@ -48,7 +48,7 @@ python main.py
 ```
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/6.png)
 
-Step 6. Select the game folder.
+Step 6. Select the game folder (In "wheres-my-water-1.0.0-windows.zip" there is a game folder available in the "Where's my water" folder).
 
 Step 7. Now you got it up and running.
 
