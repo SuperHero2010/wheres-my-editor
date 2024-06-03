@@ -19,7 +19,9 @@ Step 2. Next, you need to get the game files. You can get them in many ways, but
 
 Step 3. Drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" from the folder you extracted: "wheres-my-editor-1.0.0-windows" to the path: "/Lib/site-packages/"
 
-   Note: When installing Python, drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" into the "Python" Data Folder to the path: "/Lib/ site-packages/"
+   Note: When installing Python, drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" into the "Python" Data Folder to the path: "/Lib/site-packages/"
+
+   ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/7.png)
 
 Step 4. Open the cmd:
 
