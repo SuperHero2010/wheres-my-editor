@@ -11,7 +11,7 @@ NOTE: If you came here to read a .waltex image, then go to [wmwpy](https://githu
 # Get started
 To get started: Download "Git" before you follow the steps below: https://www.git-scm.com/downloads
 
-Note: the image below is just a suggestion for those who do not know. Must follow the steps below. Otherwise, it will cause an error.
+Note: the image below is just a suggestion for those who don't know. Must follow the steps below. Otherwise, it will cause an error.
 
 Step 1. Get the latest release from the [releases tab](https://github.com/SuperHero20101/wheres-my-editor/releases/tag/1.0.0). Extract the zip folder into it's own folder (to keep it's files organized).
 
