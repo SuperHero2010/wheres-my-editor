@@ -46,7 +46,7 @@ pip install wmwpy@git+https://github.com/wmw-modding/wmwpy
 cd src
 python main.py
 ```
-
+![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/6.png)
 
 Step 6. Select the game folder.
 
