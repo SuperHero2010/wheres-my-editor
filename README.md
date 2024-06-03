@@ -19,7 +19,9 @@ Step 3. Drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" from the folder y
 
    Note: When installing Python, drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" to the path: "/Lib/  site-packages/"
 
-Step 4. Open the cmd
+Step 4. Open the cmd:
+
+![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/5.png)
 
 Step 5. Copy and paste:
 
