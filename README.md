@@ -31,21 +31,29 @@ Step 5. Copy and paste:
 
 1:
 ```
+pip install wmwpy
+```
+or
+```
+python -m pip install wmwpy
+```
+2:
+```
 pip install -r requirements.txt
 ```
 or
 ```sh
 py -m pip install -r requirements.txt
 ```
-2:
+3:
 ```sh
 pip install -r requirements-build.txt
 ```
-3:
+4:
 ```sh
 pip install wmwpy@git+https://github.com/wmw-modding/wmwpy
 ```
-4. It will open "Where's my Editor?" if you paste in cmd :
+5. It will open "Where's my Editor?" if you paste in cmd :
 ```
 cd src
 python main.py
