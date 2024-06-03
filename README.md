@@ -60,7 +60,7 @@ python main.py
 ```
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/6.png)
 
-If you don't want to write commands, click directly on "main.py". But still have to write the command according to steps 5: 1-4 :
+If you don't want to write commands, click directly on "main.py". But still have to write the command according to steps 5: 1 to 4 and skip 5:
 
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/8.png)
 
