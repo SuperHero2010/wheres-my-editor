@@ -10,16 +10,52 @@ NOTE: If you came here to read a .waltex image, then go to [wmwpy](https://githu
 
 # Get started
 To get started
-1. Get the latest release from the [releases tab](https://github.com/wmw-modding/wheres-my-editor/releases/latest). Extract the zip folder into it's own folder (to keep it's files organized).
-2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the assets (or Content) folder.
-3. Open the Where's My Editor app (wme.exe)
-4. Select the game folder.
-5. Now you got it up and running.
+
+Step 1. Get the latest release from the [releases tab](https://github.com/SuperHero20101/wheres-my-editor/releases/tag/1.0.0). Extract the zip folder into it's own folder (to keep it's files organized).
+
+Step 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the assets (or Content) folder.
+
+Step 3. Drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" from the folder you extracted: "wheres-my-editor-1.0.0-windows" to the path: "/Lib/site -packages/"
+
+   Note: When installing Python, drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" to the path: "/Lib/  site-packages/"
+
+Step 4. Open the cmd
+
+Step 5. Copy and paste:
+
+1:
+```
+pip install -r requirements.txt
+```
+or
+```sh
+py -m pip install -r requirements.txt
+```
+2:
+```sh
+pip install -r requirements-build.txt
+```
+3:
+```sh
+pip install wmwpy@git+https://github.com/wmw-modding/wmwpy
+```
+4. It will open "Where's my Editor?" if you paste in cmd :
+```
+cd src
+python main.py
+```
+
+
+Step 6. Select the game folder.
+
+Step 7. Now you got it up and running.
 
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
 # Building
 ## Setup
+In "wheres-my-editor-1.0.0-windows.zip", there is available to build "WME" so just download "Git" and enter the command below.
+
 
 run
 ```
