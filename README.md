@@ -70,7 +70,7 @@ Step 7. Now you got it up and running.
 
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
-# Update
+# Update 1.0.2
 
   Version 1.0.2 doesn't need to drag 2 folders into it, just run "main.py".
 
@@ -129,6 +129,91 @@ python build.py
 ```
 
 The output is in `dis/wme.exe` (if you're not on windows, it probably won't be an exe).
+
+# Update README.md
+## Development
+If you're going to be editing wme, you should also edit wmwpy, as wmwpy handles all the reading and writing of the wmw files.
+
+### Setup
+
+1. Create a folder that both wme and wmwpy can be in.
+
+```
+/
+  /wheres-my-editor
+  /wmwpy
+```
+
+2. Clone wme into `wheres-my-editor`
+
+```sh
+git clone https://github.com/wmw-modding/wheres-my-editor.git
+```
+
+4. Clone wmwpy into `wmwpy`
+
+```sh
+git clone https://github.com/wmw-modding/wmwpy.git
+```
+
+5. Create wme virtual environment
+
+A virtual environment is a very good thing to use, because it allows you to keep an instance of all the installed modules without overriding your main installation.
+
+```sh
+cd wheres-my-editor
+python -m venv .venv
+./.venv/Scripts/activate
+```
+
+6. Install dependencies
+
+```sh
+pip install -r requirements.txt
+```
+
+7. Add local clone of wmwpy
+
+```sh
+pip install -e ../wmwpy
+```
+
+The `-e` argument is used to tell pip that you want wmwpy to be editable, aka, if you edit wmwpy from your clone, it will be updated in wme.
+
+8. Run wme
+
+Now you can run wme
+
+```sh
+cd src
+python main.py
+```
+
+### Build exe
+#### Install dependencies
+To build an exe for wme, you need to install the dependencies.
+
+```sh
+pip install -r requirements-build.txt
+```
+
+This will override your editable installation of wmwpy (in the venv, it will not replace your edits), so you'll have to reinstall wmwpy again.
+
+```sh
+pip install -e ../wmwpy
+```
+
+You can also edit `requirements.txt` to replace `wmwpy@git+https://github.com/wmw-modding/wmwpy` with `-e "../wmwpy"`, and then you won't have to bother with reinstalling wmwpy, but if you're going to be publishing your edits, you might want to replace it with the link to your wmwpy clone repo instead of a path to your local clone.
+
+Note: you need `requirements.txt` in the same directory, as this `requirements-build.txt` references `requirements.txt`.
+
+#### Build exe
+
+```sh
+python build.py
+```
+
+The output is in `dis/wme.exe` (it won't be an exe if you're not on windows).
 
 # Todo
 
