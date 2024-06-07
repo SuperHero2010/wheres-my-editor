@@ -70,6 +70,10 @@ Step 7. Now you got it up and running.
 
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
+# Update
+
+  Version 1.0.2 doesn't need to drag 2 folders into it, just run "main.py".
+
 # Building
 ## Setup
 In "wheres-my-editor-1.0.0-windows.zip", there is available to build "WME" so just download "Git" and enter the command below.
