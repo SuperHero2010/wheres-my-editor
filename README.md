@@ -17,7 +17,7 @@ Step 1. Get the latest release from the [releases tab](https://github.com/SuperH
 
 Step 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the assets (or Content) folder.
 
-Step 3. Drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" from the folder you extracted: "wheres-my-editor-1.0.0-windows" to the path: "/Lib/site-packages/"
+Step 3. Drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" from the folder you extracted: "wheres-my-editor-1.0.0-windows or wheres-my-editor-1.0.1-windows" to the path: "/Lib/site-packages/"
 
    Note: When installing Python, drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" into the "Python" Data Folder to the path: "/Lib/site-packages/"
 
