@@ -13,7 +13,7 @@ To get started: Download "Git" before you follow the steps below: https://www.gi
 
 Note: the image below is just a suggestion for those who don't know. Must follow the steps below. Otherwise, it will cause an error.
 
-Step 1. Get the latest release from the [releases tab](https://github.com/SuperHero20101/wheres-my-editor/releases/latest). Extract the zip folder into it's own folder (to keep it's files organized).
+Step 1. Get the latest release from the [releases tab](https://github.com/SuperHero2010/wheres-my-editor/releases/latest). Extract the zip folder into it's own folder (to keep it's files organized).
 
 Step 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the assets (or Content) folder.
 
@@ -64,7 +64,7 @@ If you don't want to write commands, click directly on "main.py". But still have
 
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/8.png)
 
-Step 6. Select the game folder (In "wheres-my-water-1.0.0-windows.zip" there is a game folder available in the "Where's my water" folder).
+Step 6. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip and wheres-my-editor-1.0.1-windows.zip" there is a game folder available in the "Where's my water" folder).
 
 Step 7. Now you got it up and running.
 
@@ -76,7 +76,7 @@ If you run into any issues, please send a bug report (shortcut in Help > Send bu
 
 # Building
 ## Setup
-In "wheres-my-editor-1.0.0-windows.zip", there is available to build "WME" so just download "Git" and enter the command below.
+In "wheres-my-editor-1.0.0-windows.zip, "wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip" there is available to build "WME" so just download "Git" and enter the command below.
 
 
 run
@@ -150,13 +150,13 @@ If you're going to be editing wme, you should also edit wmwpy, as wmwpy handles 
 git clone https://github.com/wmw-modding/wheres-my-editor.git
 ```
 
-4. Clone wmwpy into `wmwpy`
+3. Clone wmwpy into `wmwpy`
 
 ```sh
 git clone https://github.com/wmw-modding/wmwpy.git
 ```
 
-5. Create wme virtual environment
+4. Create wme virtual environment
 
 A virtual environment is a very good thing to use, because it allows you to keep an instance of all the installed modules without overriding your main installation.
 
@@ -166,13 +166,13 @@ python -m venv .venv
 ./.venv/Scripts/activate
 ```
 
-6. Install dependencies
+5. Install dependencies
 
 ```sh
 pip install -r requirements.txt
 ```
 
-7. Add local clone of wmwpy
+6. Add local clone of wmwpy
 
 ```sh
 pip install -e ../wmwpy
@@ -180,7 +180,7 @@ pip install -e ../wmwpy
 
 The `-e` argument is used to tell pip that you want wmwpy to be editable, aka, if you edit wmwpy from your clone, it will be updated in wme.
 
-8. Run wme
+7. Run wme
 
 Now you can run wme
 
