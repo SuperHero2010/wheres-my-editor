@@ -76,7 +76,7 @@ If you run into any issues, please send a bug report (shortcut in Help > Send bu
 
 # Building
 ## Setup
-In "wheres-my-editor-1.0.0-windows.zip, "wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip" there is available to build "WME" so just download "Git" and enter the command below.
+In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip" there is available to build "WME" so just download "Git" and enter the command below.
 
 
 run
