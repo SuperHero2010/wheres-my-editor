@@ -226,6 +226,8 @@ The output is in `dis/wme.exe` (it won't be an exe if you're not on windows).
 - [ ] Level explorer
 - [x] Fix some objects not loading
 - [ ] Image editor
+- [x] Move objects
+- [x] Edit, delete and add lines on the left
 
 # Credits
 - Thanks to [rubice!](https://youtube.com/@rubice2022) for creating the logo. I am not skilled enough to make something that looks that good.
