@@ -64,19 +64,19 @@ If you don't want to write commands, click directly on "main.py". But still have
 
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/8.png)
 
-Step 6. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip" there is a game folder available in the "Where's my water" folder).
+Step 6. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip and more" there is a game folder available in the "Where's my water" folder).
 
 Step 7. Now you got it up and running.
 
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
-# Update 1.0.2
+# Update 1.0.2 and more
 
-  Version 1.0.2 doesn't need to drag 2 folders into it, just run "main.py".
+  Version 1.0.2 and more doesn't need to drag 2 folders into it, just run "main.py".
 
 # Building
 ## Setup
-In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip" there is available to build "WME" so just download "Git" and enter the command below.
+In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip and more" there is available to build "WME" so just download "Git" and enter the command below.
 
 
 run
