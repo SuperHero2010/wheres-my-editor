@@ -29,40 +29,11 @@ Step 4. Open the cmd:
 
 Step 5. Copy and paste:
 
-1:
-```
-pip install wmwpy
-```
-or
-```
-python -m pip install wmwpy
-```
-2:
-```
-pip install -r requirements.txt
-```
-or
-```sh
-py -m pip install -r requirements.txt
-```
-3:
-```sh
-pip install -r requirements-build.txt
-```
-4:
-```sh
-pip install wmwpy@git+https://github.com/wmw-modding/wmwpy
-```
-5. It will open "Where's my Editor?" if you paste in cmd :
 ```
 cd src
 python main.py
 ```
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/6.png)
-
-If you don't want to write commands, click directly on "main.py". But still have to write the command according to steps 5: 1 to 4 and skip 5:
-
-![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/8.png)
 
 Step 6. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip and more" there is a game folder available in the "Where's my water" folder).
 
