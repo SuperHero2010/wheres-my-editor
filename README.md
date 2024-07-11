@@ -17,17 +17,11 @@ Step 1. Get the latest release from the [releases tab](https://github.com/SuperH
 
 Step 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the assets (or Content) folder.
 
-Step 3. Drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" from the folder you extracted: "wheres-my-editor-1.0.0-windows or wheres-my-editor-1.0.1-windows" to the path: "/Lib/site-packages/"
-
-   Note: When installing Python, drag the folders "wmwpy" and "wmwpy-0.5.2b0.dist-info" into the "Python" Data Folder to the path: "/Lib/site-packages/"
-
-   ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/7.png)
-
-Step 4. Open the cmd:
+Step 3. Open the cmd:
 
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/5.png)
 
-Step 5. Copy and paste:
+Step 4. Copy and paste:
 
 ```
 cd src
@@ -35,14 +29,14 @@ python main.py
 ```
 ![Here](https://github.com/SuperHero20101/wheres-my-editor/blob/main/6.png)
 
-Step 6. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip and more" there is a game folder available in the "Where's my water" folder).
+Step 5. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip and more" there is a game folder available in the "Where's my water" folder).
 
-Step 7. Now you got it up and running.
+Step 6. Now you got it up and running.
 
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
 # Get started (Application)
-1. Get the latest release from the releases tab. Extract the zip folder into it's own folder (to keep it's files organized).
+1. Get the latest release from the [releases tab](https://github.com/SuperHero2010/wheres-my-editor/releases). Extract the zip folder into it's own folder (to keep it's files organized).
 
 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the `assets` (or `Content`) folder.
 
