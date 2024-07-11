@@ -8,7 +8,7 @@ Where's My Editor? is a level editor for the mobile game, Where's My Water? and 
 
 NOTE: If you came here to read a .waltex image, then go to [wmwpy](https://github.com/wmw-modding/wmwpy/blob/main/src/wmwpy/utils/waltex.py). `waltex.py` has moved there.
 
-# Get started
+# Get started (WME Data)
 To get started: Download "Git" before you follow the steps below: https://www.git-scm.com/downloads
 
 Note: the image below is just a suggestion for those who don't know. Must follow the steps below. Otherwise, it will cause an error.
@@ -38,6 +38,19 @@ python main.py
 Step 6. Select the game folder (In "wheres-my-editor-1.0.0-windows.zip, wheres-my-editor-1.0.1-windows.zip and wheres-my-editor-1.0.2-windows.zip and more" there is a game folder available in the "Where's my water" folder).
 
 Step 7. Now you got it up and running.
+
+If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
+
+# Get started (Application)
+1. Get the latest release from the releases tab. Extract the zip folder into it's own folder (to keep it's files organized).
+
+2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the `assets` (or `Content`) folder.
+
+3. Open the Where's My Editor app (wme.exe)
+
+4. Select the game folder.
+
+5. Now you got it up and running.
 
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
@@ -102,7 +115,20 @@ python build.py
 The output is in `dis/wme.exe` (if you're not on windows, it probably won't be an exe).
 
 # Update README.md
+## How to use
+After you load a level, you can move around, and edit objects.
+
+### Moving objects
+
+You can move objects by clicking on it, and dragging it anywhere. You can also use the arrow keys for finer placement. You can also hold some modifier keys to change the amount moved
+
+- **Shift** + **Arrow key** = 4
+- **Arrow key** = 1
+- **Control** (or **Command**) + **Arrow key** = 0.5
+- **Alt** + **Arrow key** = 0.1
+
 ## Development
+
 If you're going to be editing wme, you should also edit wmwpy, as wmwpy handles all the reading and writing of the wmw files.
 
 ### Setup
