@@ -13,7 +13,7 @@ To get started: Download "Git" before you follow the steps below: https://www.gi
 
 Note: the image below is just a suggestion for those who don't know. Must follow the steps below. Otherwise, it will cause an error.
 
-Step 1. Get the latest release from the [releases tab](https://github.com/SuperHero2010/wheres-my-editor/releases/latest). Extract the zip folder into it's own folder (to keep it's files organized). To download without Chrome blocking the download because of viruses, turn off your firewall and antivirus program.
+Step 1. Get the latest release from the [releases tab](https://github.com/SuperHero2010/wheres-my-editor/releases/latest). Extract the zip folder into it's own folder (to keep it's files organized).
 
 Step 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the assets (or Content) folder.
 
@@ -36,7 +36,7 @@ Step 6. Now you got it up and running.
 If you run into any issues, please send a bug report (shortcut in Help > Send bug report, or the issues page in this repository).
 
 # Get started (Application)
-1. Get the latest release from the [releases tab](https://github.com/SuperHero2010/wheres-my-editor/releases). Extract the zip folder into it's own folder (to keep it's files organized).
+1. Get the latest release from the [releases tab](https://github.com/SuperHero2010/wheres-my-editor/releases). Extract the zip folder into it's own folder (to keep it's files organized). To download without Chrome block the download because of virus, turn off your firewall and antivirus program.
 
 2. Next, you need to get the game files. You can get them in many ways, but generally, you want to have the game extracted into a folder, and all the assets in the `assets` (or `Content`) folder.
 
