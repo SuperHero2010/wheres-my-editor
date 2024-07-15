@@ -41,14 +41,14 @@ jobs:
     - name: Create zip
       run: |
        mv ./dist ./wme-MacOS |
-       zip -r ./wme-MacOS.zip ./wme-MacOS/
+       zip -r ./wme-MacOS-1.0.8.2.zip ./wme-MacOS/
 
     - name: Upload Release Asset
       uses: xresloader/upload-to-github-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        file: "wme-MacOS.zip"
+        file: "wme-MacOS-1.0.8.2.zip"
         update_latest_release: true
         release_id: ${{ github.event.release.id }}
 
@@ -88,14 +88,14 @@ jobs:
       shell: pwsh
       run: ;
         mv ./dist ./wme-Windows ;
-        Compress-Archive ./wme-Windows/ ./wme-Windows.zip ;
+        Compress-Archive ./wme-Windows/ ./wme-Windows-1.0.8.2.zip ;
 
     - name: Upload Release Asset
       uses: xresloader/upload-to-github-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        file: "wme-Windows.zip"
+        file: "wme-Windows-1.0.8.2.zip"
         update_latest_release: true
         release_id: ${{ github.event.release.id }}
 
@@ -135,14 +135,14 @@ jobs:
     - name: Create zip
       run: |
         mv ./dist ./wme-Ubuntu |
-        zip -r ./wme-Ubuntu.zip ./wme-Ubuntu/
+        zip -r ./wme-Ubuntu-1.0.8.2.zip ./wme-Ubuntu/
 
     - name: Upload Release Asset
       uses: xresloader/upload-to-github-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        file: "wme-Ubuntu.zip"
+        file: "wme-Ubuntu-1.0.8.2.zip"
         update_latest_release: true
         release_id: ${{ github.event.release.id }}
 
