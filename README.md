@@ -171,3 +171,6 @@ The output is in `dis/wme.exe` (it won't be an exe if you're not on windows).
 
 # Special thanks
 - Thanks to AwesomeDragon970#8068 for helping debug the program on MacOS. They are very awesome!
+
+# Turn off your computer FireWall and Antivirus Program
+This is an unlisted video, watch the video to learn how to turn it off: https://youtu.be/jGj9dYDvMVo
