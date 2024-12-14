@@ -1,4 +1,4 @@
-__version__ = '1.0.8.2'
+__version__ = '1.0.8.3'
 __author__ = 'SuperHero2010'
 __credits__ = [
     {
@@ -23,7 +23,7 @@ __credits__ = [
     }
 ]
 __links__ = {
-    'discord' : 'https://discord.gg/wYpqH4SRsp',
+    'discord' : 'https://discord.gg/5BWTwGf8Rt',
     'releases' : 'https://github.com/SuperHero2010/wheres-my-editor/releases',
     'bugs' : 'https://github.com/SuperHero2010/wheres-my-editor/issues',
 }
